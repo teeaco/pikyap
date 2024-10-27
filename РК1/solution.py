@@ -1,6 +1,6 @@
 from operator import itemgetter
 
-class ProgrammingLanguage:
+class Language:
     """Язык программирования"""
     def __init__(self, id, name, popularity, library_id):
         self.id = id
@@ -35,12 +35,12 @@ libraries = [
 
 # Языки программирования
 languages = [
-    ProgrammingLanguage(1, 'Python', 100, 1),
-    ProgrammingLanguage(2, 'Nim', 85, 1),
-    ProgrammingLanguage(3, 'JavaScript', 90, 2),
-    ProgrammingLanguage(4, 'C++', 75, 2),
-    ProgrammingLanguage(5, 'Rust', 80, 3),
-    ProgrammingLanguage(6, 'Assembler', 79, 3),
+    Language(1, 'Python', 100, 1),
+    Language(2, 'Nim', 85, 1),
+    Language(3, 'JavaScript', 90, 2),
+    Language(4, 'C++', 75, 2),
+    Language(5, 'Rust', 80, 3),
+    Language(6, 'Assembler', 79, 3),
 ]
 
 # Связь многие-ко-многим
