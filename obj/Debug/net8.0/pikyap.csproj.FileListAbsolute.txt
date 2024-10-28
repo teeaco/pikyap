@@ -1,0 +1,5 @@
+C:\projects\3 sem\pikyap\pikyap\obj\Debug\net8.0\pikyap.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\3 sem\pikyap\pikyap\obj\Debug\net8.0\pikyap.AssemblyInfoInputs.cache
+C:\projects\3 sem\pikyap\pikyap\obj\Debug\net8.0\pikyap.AssemblyInfo.cs
+C:\projects\3 sem\pikyap\pikyap\obj\Debug\net8.0\pikyap.csproj.CoreCompileInputs.cache
+C:\projects\3 sem\pikyap\pikyap\obj\Debug\net8.0\pikyap.sourcelink.json
