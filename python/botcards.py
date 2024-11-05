@@ -1,11 +1,9 @@
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-# Замените "YOUR_BOT_TOKEN" на ваш токен
 token = "7322283656:AAEMQT40skWKrNKATIR5mMLBiqsM1Bgj3zY"
 bot = telebot.TeleBot(token)
 
-# Хранилище данных (в будущем можно заменить на базу данных)
 folders = {}
 
 @bot.message_handler(commands=['start'])
