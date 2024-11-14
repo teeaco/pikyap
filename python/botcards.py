@@ -36,7 +36,7 @@ def help_message(message):
     bot.send_message(message.chat.id,
                      "help - посмотреть команды\n"
                      "создать папку - создание папки с будущими карточками\n"
-                     "посмотреть текущие папки - показывает ранее созданные папки"
+                     "посмотреть текущие папки - показывает ранее созданные папки\n"
                      "викторина - проверяет знание карточек уже существующей папки",
                      reply_markup=main_menu())
 
@@ -82,7 +82,7 @@ def open_folder(call):  #чек на прожимание
 # добавление карточки
 @bot.callback_query_handler(func=lambda call: call.data.startswith("add_card_"))
 def add_card_prompt(call): 
-    folder_name = call.data.split("_")[2]  [add, card, name]
+    folder_name = call.data.split("_")[2] # [add, card, name]
     msg = bot.send_message(call.message.chat.id, "Введите имя карточки:")  
     bot.register_next_step_handler(msg, add_card, folder_name)  # to be continued......
 
@@ -92,9 +92,15 @@ def add_card(message, folder_name):
     bot.register_next_step_handler(msg, save_card, card_name, folder_name)  # to be continued 2.0 .....
 
 def save_card(message, card_name, folder_name):
-    translation = message.text  # trans 
-    folders[folder_name].append((card_name, translation))  #  карточку в папку goida
-    bot.send_message(message.chat.id, f"Карточка '{card_name}' с переводом '{translation}' добавлена.", reply_markup = main_menu())
+    translation = message.text  # Translation of the card
+
+    # Check if the folder exists, if not, create it
+    if folder_name not in folders:
+        folders[folder_name] = []  # Create the folder with an empty list of cards
+
+    # Add the card to the folder
+    folders[folder_name].append((card_name, translation))  
+    bot.send_message(message.chat.id, f"Карточка '{card_name}' с переводом '{translation}' добавлена.", reply_markup=main_menu())
 
 # cards in folder
 @bot.callback_query_handler(func=lambda call: call.data.startswith("view_cards_"))
