@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pikyap")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1000ca58f05bf07fd8ed3f3a4882660fd717d12")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd71fcfa52b5cd99e826fc9df203097590393f43")]
 [assembly: System.Reflection.AssemblyProductAttribute("pikyap")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pikyap")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
