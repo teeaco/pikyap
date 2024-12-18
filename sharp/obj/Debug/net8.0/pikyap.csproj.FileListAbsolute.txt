@@ -1,0 +1,15 @@
+C:\projects\3 sem\pikyap\pikyap\sharp\bin\Debug\net8.0\pikyap.exe
+C:\projects\3 sem\pikyap\pikyap\sharp\bin\Debug\net8.0\pikyap.deps.json
+C:\projects\3 sem\pikyap\pikyap\sharp\bin\Debug\net8.0\pikyap.runtimeconfig.json
+C:\projects\3 sem\pikyap\pikyap\sharp\bin\Debug\net8.0\pikyap.dll
+C:\projects\3 sem\pikyap\pikyap\sharp\bin\Debug\net8.0\pikyap.pdb
+C:\projects\3 sem\pikyap\pikyap\sharp\obj\Debug\net8.0\pikyap.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\3 sem\pikyap\pikyap\sharp\obj\Debug\net8.0\pikyap.AssemblyInfoInputs.cache
+C:\projects\3 sem\pikyap\pikyap\sharp\obj\Debug\net8.0\pikyap.AssemblyInfo.cs
+C:\projects\3 sem\pikyap\pikyap\sharp\obj\Debug\net8.0\pikyap.csproj.CoreCompileInputs.cache
+C:\projects\3 sem\pikyap\pikyap\sharp\obj\Debug\net8.0\pikyap.sourcelink.json
+C:\projects\3 sem\pikyap\pikyap\sharp\obj\Debug\net8.0\pikyap.dll
+C:\projects\3 sem\pikyap\pikyap\sharp\obj\Debug\net8.0\refint\pikyap.dll
+C:\projects\3 sem\pikyap\pikyap\sharp\obj\Debug\net8.0\pikyap.pdb
+C:\projects\3 sem\pikyap\pikyap\sharp\obj\Debug\net8.0\pikyap.genruntimeconfig.cache
+C:\projects\3 sem\pikyap\pikyap\sharp\obj\Debug\net8.0\ref\pikyap.dll
